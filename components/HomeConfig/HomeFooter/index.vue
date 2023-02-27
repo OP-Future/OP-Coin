@@ -1,33 +1,31 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer
-    class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto"
-  >
+  <footer class="mt-auto w-full py-10 px-4 dark:bg-black">
     <!-- Grid -->
     <div class="text-center">
       <div>
         <a
-          class="flex-none text-xl font-semibold text-black dark:text-white"
+          class="flex-none text-xl font-semibold text-white"
           href="#"
           aria-label="Brand"
-          >Brand</a
+          >OPX</a
         >
       </div>
       <!-- End Col -->
 
       <div class="mt-3">
         <p class="text-gray-500">
-          We're part of the
+          欢迎支持我们!
           <a
             class="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400"
             href="#"
-            >Htmlstream</a
+            >了解我们</a
           >
-          family.
+          来自 OPX-Future.
         </p>
         <p class="text-gray-500">
-          © Preline. 2022 Htmlstream. All rights reserved.
+          © 备案号: <a href="#" class="text-orange-200">ICP备2023000861号</a>
         </p>
       </div>
 
@@ -69,7 +67,7 @@
         </a>
         <a
           class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-          href="#"
+          href="https://github.com/OP-Future"
         >
           <svg
             class="w-3.5 h-3.5"
@@ -84,9 +82,10 @@
             />
           </svg>
         </a>
+
         <a
           class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
-          href="#"
+          href="https://github.com/OP-Future"
         >
           <svg
             class="w-3.5 h-3.5"
