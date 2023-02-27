@@ -1,63 +1,82 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+//q:ref是干什么的?
+</script>
 
 <template>
   <!-- Hero -->
   <div class="relative overflow-hidden">
-    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div class="max-w-2xl text-center mx-auto">
-        <h1
-          class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white"
-        >
-          Designed for you to get more <span class="text-blue-600">simple</span>
-        </h1>
-        <p class="mt-3 text-lg text-gray-800 dark:text-gray-400">
-          Build your business here. Take it anywhere.
-        </p>
-      </div>
+    <section
+      class="overflow-hidden _date-bg-linear sm:grid sm:grid-cols-2 sm:items-center"
+    >
+      <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div class="mx-auto max-w-6xl text-center sm:text-left">
+          <h2 class="lg:text-5xl font-bold _date-border md:text-4xl">
+            Welcome to OPcoin !
+          </h2>
 
-      <div class="mt-10 relative max-w-5xl mx-auto">
-        <div
-          class="w-full object-cover h-96 sm:h-[480px] bg-[url('https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80')] bg-no-repeat bg-center bg-cover rounded-xl"
-        ></div>
+          <p
+            class="hidden dark:text-white md:mt-4 md:block text-5xl text-center"
+          >
+            Trading and Art Creation
+          </p>
 
-        <div class="absolute inset-0 w-full h-full">
-          <div class="flex flex-col justify-center items-center w-full h-full">
-            <a
-              class="inline-flex justify-center items-center gap-x-1.5 text-center text-sm bg-white text-gray-800 hover:text-gray-600 rounded-full transition focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:bg-black dark:text-gray-200 dark:hover:text-gray-400 dark:focus:ring-offset-black"
-              href="#"
+          <p
+            class="hidden dark:text-white md:mt-4 md:block text-5xl text-center"
+          >
+            Journey with <i>NFT !</i>
+          </p>
+
+          <div class="mt-4 md:mt-8 flex justify-center">
+            <button
+              class="inline-block rounded _date-button-bg px-12 py-3 text-sm font-medium text-white transition"
             >
-              <svg
-                class="w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"
-                />
-              </svg>
-              Play the overview
-            </a>
+              去创作
+            </button>
+            <button
+              class="inline-block rounded _date-button-two-bg mx-5 px-12 py-3 text-sm font-medium text-white transition"
+            >
+              去探索
+            </button>
           </div>
         </div>
-
-        <div
-          class="absolute bottom-12 -left-20 -z-[1] w-48 h-48 bg-gradient-to-b from-orange-500 to-white p-px rounded-lg dark:to-slate-900"
-        >
-          <div class="bg-white w-48 h-48 rounded-lg dark:bg-slate-900"></div>
-        </div>
-
-        <div
-          class="absolute -top-12 -right-20 -z-[1] w-48 h-48 bg-gradient-to-t from-blue-600 to-cyan-400 p-px rounded-full"
-        >
-          <div class="bg-white w-48 h-48 rounded-full dark:bg-slate-900"></div>
-        </div>
       </div>
-    </div>
+
+      <img
+        alt="Violin"
+        src="../../../assets/img/banner.svg"
+        class="_date-welcoem-banner object-cover object-center relative mr-24 mt-36"
+      />
+    </section>
   </div>
   <!-- End Hero -->
 </template>
 
-<style></style>
+<style>
+._date-border {
+  -webkit-text-stroke: 1px #fff;
+  color: rgba(255, 255, 255, 0);
+}
+._date-bg-linear {
+  background: linear-gradient(90deg, black 0%, #180019 70%, #400138 100%);
+}
+._date-button-bg {
+  background: rgba(99, 94, 255, 1);
+  border: #ffffff00 solid 1px;
+}
+._date-button-two-bg {
+  background: rgba(0, 0, 0, 0);
+  border: #fff solid 1px;
+}
+._date-button-bg:hover {
+  background: rgba(0, 0, 0, 0);
+  border: #fff solid 1px;
+}
+._date-button-two-bg:hover {
+  background: rgb(12, 223, 163);
+  border: #ffffff00 solid 1px;
+}
+._date-welcoem-banner {
+  width: 100%;
+  height: 100%;
+}
+</style>
