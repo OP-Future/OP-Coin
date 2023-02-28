@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <footer class="mt-auto w-full py-10 px-4 dark:bg-black">
+  <footer class="absolute mt-auto w-full py-10 px-4 dark:bg-black">
     <!-- Grid -->
     <div class="text-center">
       <div>
