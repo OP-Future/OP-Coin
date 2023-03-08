@@ -48,9 +48,9 @@
   background: linear-gradient(90deg, black 0%, #180019 70%, #400138 100%);
 }
 ._date-grid-Mainconfig {
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 1.5fr 1.2fr;
   grid-template-rows: 1fr;
-  height: 64vh;
+  height: 100vh;
 }
 ._date-text-border {
   color: rgba(0, 0, 0, 0);
