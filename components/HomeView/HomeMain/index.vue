@@ -1,111 +1,56 @@
 <script setup lang="ts"></script>
-
 <template>
-  <div class="main">
-    <div class="main-top">
-      <img class="coin" src="./img/coin.png" />
-      <img class="community" src="./img/addOPCommunity.png" />
-      <img class="king" src="./img/king.png" />
-      <div class="NTF_text">
-        一起来改变传统NFT!
-        <br />
-        与全球数字资产投资者交流策略、区块链知识
+  <div class="grid _date-grid-Mainconfig _date-bg-linear">
+    <!-- 标题组 -->
+    <div class="left m-auto ml-8">
+      <h1
+        class="text-white text-6xl font-bold _date-text-border justify-center grid pb-5"
+      >
+        Welcome OP-Coin NFT
+      </h1>
+      <p class="grid text-lg text-white relative justify-center pt-5">
+        Trading and Art Creation Journey with NFT !
+      </p>
+      <!-- 按钮组 -->
+      <div class="grid grid-cols-2 pt-8">
+        <!-- 去创作 -->
+        <button
+          class="w-6/12 h-12 ml-auto bg-violet-500 rounded-full text-white hover:bg-black hover:border-white hover:border-2"
+        >
+          去创作
+        </button>
+        <!-- 去探索 -->
+        <button
+          class="w-6/12 h-12 mr-auto mx-3 bg-black border-white border-2 rounded-full text-white hover:bg-violet-500 hover:border-0"
+        >
+          去探索
+        </button>
       </div>
+      <!-- Welcome to OP-Coin NFT Trading and Art Creation Journey with NFT ! -->
     </div>
-    <div class="main-bottom">
-      <div class="item">
-        <img class="image" src="./img/twitter.png" />
-        <div class="text">加入Twitter</div>
-      </div>
-      <div class="item">
-        <img class="image" src="./img/Telegram.png" />
-        <div class="text">加入Twitter</div>
-      </div>
-      <div class="item">
-        <img class="image" src="./img/QQ.png" />
-        <div class="text">加入Twitter</div>
-      </div>
-      <div class="item">
-        <img class="image" src="./img/discord.png" />
-        <div class="text">加入Twitter</div>
-      </div>
+    <!-- banner海报 -->
+    <div class="right grid">
+      <img
+        src="~/assets/img/banner.svg"
+        alt=""
+        class="object-cover w-full h-full"
+      />
     </div>
   </div>
 </template>
-
-<style scoped>
-.main {
+<style>
+._date-bg-linear {
   background: linear-gradient(90deg, black 0%, #180019 70%, #400138 100%);
-  background-color: #fff;
-  display: grid; /* 将main设置为一个网格容器 */
-  grid-template-rows: 1.3fr 1fr; /* 定义main内部的两个网格行 */
-  grid-template-areas:
-    'top'
-    'bottom';
-  gap: 10px;
 }
-.main-top {
-  grid-area: top;
-  padding: 20px;
-  position: relative;
-  display: flex;
-  align-items: center;
+._date-grid-Mainconfig {
+  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 1.5fr 1.2fr;
+  grid-template-rows: 1fr;
+  height: 64vh;
+  height: 100vh;
 }
-.main-top .coin {
-  width: 380px;
-  height: 300px;
-  position: absolute;
-  top: 71px;
-  left: 115px;
-}
-.main-top .community {
-  width: 529px;
-  position: absolute;
-  top: 42px;
-  left: 452px;
-}
-.main-top .king {
-  width: 114px;
-  position: absolute;
-  top: 4px;
-  left: 911px;
-}
-.main-top .NTF_text {
-  color: white;
-  position: absolute;
-  top: 247px;
-  left: 886px;
-  font-size: 21px;
-}
-
-.main-bottom {
-  grid-area: bottom;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
-}
-.main-bottom > .item {
-  /* background-color: #ccc; */
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.main-bottom > .item .image {
-  width: 150px;
-  height: 150px;
-}
-.main-bottom > .item .text {
-  margin: 0;
-  width: 200px;
-  height: 70px;
-  border: 3px solid white;
-  border-radius: 10px;
-  text-align: center;
-  line-height: 70px;
-  font-weight: bold;
-  color: white;
+._date-text-border {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px #fff;
 }
 </style>
