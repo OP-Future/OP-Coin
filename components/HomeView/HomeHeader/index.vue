@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const router_config: any[] = [
-  { name: "首页", path: "/" },
-  { name: "市场", path: "/about" },
-  { name: "区块浏览器", path: "/contact" },
-  { name: "社区", path: "/login" },
-];
+  { name: '首页', path: '/' },
+  { name: '市场', path: '/about' },
+  { name: '区块浏览器', path: '/contact' },
+  { name: '社区', path: '/Community' },
+]
 </script>
 
 <template>
@@ -52,7 +52,7 @@ const router_config: any[] = [
           v-for="router in router_config"
           class="text-white text-lg indent-3 font-bold border-white hover:opacity-80"
         >
-          {{ router.name }}
+          <nuxt-link :to="router.path"> {{ router.name }}</nuxt-link>
         </li>
       </ul>
       <button
