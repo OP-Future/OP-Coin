@@ -52,11 +52,11 @@
   align-items: center;
 }
 .main-top .coin {
-  width: 270px;
+  width: 287px;
   height: 240px;
   position: absolute;
   top: 5rem;
-  left: 14rem;
+  left: 10rem;
 }
 .main-top .community {
   width: 529px;
