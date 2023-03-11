@@ -29,7 +29,7 @@
         </p>
       </div>
 
-      <!-- Social Brands -->
+      <!-- Social Brands 页面底部的四个矢量图 -->
       <div class="mt-3 space-x-2">
         <a
           class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
@@ -82,7 +82,6 @@
             />
           </svg>
         </a>
-
         <a
           class="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800"
           href="https://github.com/OP-Future"
