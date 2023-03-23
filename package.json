@@ -1,9 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
+    "build": "nuxt build && backpack build",
     "generate": "nuxt generate",
+    "nrd": "nuxt-rd",
+    "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
+    "nuxt-relative-dir": "^0.0.5",
     "pinia": "^2.0.33"
   }
 }
