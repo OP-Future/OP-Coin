@@ -1,12 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <!-- Home头部 -->
-  <HomeViewHomeHeader />
+  <!-- 头部 -->
+  <TopView />
+
   <!-- Community中间部分 -->
   <CommunityViewCommunityMain />
-  <!-- Home底部 -->
-  <HomeViewHomeFooter />
+
+  <!-- 底部 -->
+  <FooterView />
 </template>
 
 <style></style>

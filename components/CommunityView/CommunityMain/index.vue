@@ -15,19 +15,19 @@
     <div class="main-bottom">
       <div class="item">
         <img class="image" src="./img/twitter.png" />
-        <div class="text">加入Twitter</div>
+        <div class="txt">加入Twitter</div>
       </div>
       <div class="item">
         <img class="image" src="./img/Telegram.png" />
-        <div class="text">加入Twitter</div>
+        <div class="txt">加入Telegram</div>
       </div>
       <div class="item">
         <img class="image" src="./img/QQ.png" />
-        <div class="text">加入Twitter</div>
+        <div class="txt">加入QQ</div>
       </div>
       <div class="item">
         <img class="image" src="./img/discord.png" />
-        <div class="text">加入Twitter</div>
+        <div class="txt">加入Discord</div>
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@
   width: 150px;
   height: 150px;
 }
-.main-bottom > .item .text {
+.main-bottom > .item .txt {
   margin: 0;
   width: 200px;
   height: 70px;

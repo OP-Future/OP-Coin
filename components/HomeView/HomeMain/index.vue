@@ -30,11 +30,8 @@
     </div>
     <!-- banner海报 -->
     <div class="right grid">
-      <img
-        src="~/assets/img/banner.svg"
-        alt=""
-        class="object-cover w-full h-full"
-      />
+      <!-- img图 -->
+      <HomeViewHomeMainHomeLogo />
     </div>
   </div>
 </template>

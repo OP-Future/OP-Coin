@@ -9,12 +9,12 @@ console.log(test_text.value)
 
 <template>
   <div>
-    <!-- Home头部 -->
-    <HomeViewHomeHeader />
+    <!-- 头部 -->
+    <TopView />
     <!-- Home中间部分 -->
     <HomeViewHomeMain />
-    <!-- Home底部 -->
-    <HomeViewHomeFooter />
+    <!-- 底部 -->
+    <FooterView />
   </div>
 </template>
 

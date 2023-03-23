@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <MarketView />
+  <MarketView class="overflow-hidden" />
 </template>
 
 <style></style>
